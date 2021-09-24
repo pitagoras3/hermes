@@ -1,7 +1,7 @@
 package pl.allegro.tech.hermes.management.api;
 
 import com.wordnik.swagger.annotations.ApiOperation;
-import org.hibernate.validator.constraints.NotEmpty;
+import javax.validation.constraints.NotEmpty;
 import org.springframework.beans.factory.annotation.Autowired;
 import pl.allegro.tech.hermes.api.ConsumerGroup;
 import pl.allegro.tech.hermes.api.MessageTrace;
